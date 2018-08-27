@@ -1,0 +1,233 @@
+.container {
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5em;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    border-bottom: 1px solid  #CC0000;
+}
+
+#main-header li {
+    list-style: none;
+    display: inline;
+    padding: 0 1vw;
+}
+
+#main-header a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+#main-header .current a {
+    color: #CC0000;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #CC0000;
+}
+
+.primary {
+    color: #CC0000;
+}
+
+#showcase {
+    background: url('../images/showcase.jpg') no-repeat center center;
+    height: 60vh;
+}
+
+#showcase .container, 
+#showcase .container .row{
+    height: 100%;
+}
+
+#showcase h1 {
+    font-size: 3rem;
+    margin: 1rem auto 0 auto;
+    line-height: 1.5em;
+}
+
+#showcase p {
+    font-size: 1rem;
+    margin: 0 auto 1rem auto;
+}
+
+.slogan {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5rem;
+    color: white;
+}
+
+#features .fa{
+    font-size: 3rem;
+    color: #cc0000;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+#features p {
+    font-size: 1rem;
+    margin-bottom: 2em;
+}
+
+#features h4 {
+    font-size: 1rem;
+}
+
+#info {
+    background: url('../images/info-bg.jpg') no-repeat center center;
+}
+
+#info h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+#info ul {
+    color: #eeeeee;
+    list-style: none;
+    padding: 0;
+}
+
+#company {
+    background: #292929;
+    color: white;
+    padding-top: 3rem;
+    line-height: 2em;
+}
+
+#company h4 {
+    font-size: 1.25rem;
+    color: #CC0000;
+}
+
+#company ul {
+    list-style: none;
+    padding: 0;
+}
+
+#company input {
+    color: black;
+    height: 2rem;
+    width: 75%;
+    padding: 0 0.8em;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#company button {
+    color: white;
+    height: 2rem;
+    width: 20%;
+    padding: 0;
+    background-color: black;
+    border: none;
+}
+
+#main-footer {
+    background: #292929;
+    color: #efefef;
+}
+
+#main-footer p {
+    margin: 0;
+    line-height: 3em;
+}
+
+#subheader {
+    background-color: #292929;
+    color: white;
+}
+
+#page h2 {
+    padding-top: 2em;
+    margin: 0;
+}
+
+#page p {
+    padding: 1em;
+    margin: 0;
+}
+
+#page {
+    margin-bottom: 3rem;
+}
+
+.services ul{
+    list-style: none;
+    -webkit-box-shadow: 20px 10px 70px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 10px 70px -25px rgba(0,0,0,0.75);
+    box-shadow: 20px 10px 70px -25px rgba(0,0,0,0.75);
+}
+
+.services ul li{
+    padding: 1em;
+}
+
+.services li:nth-child(odd) {
+    background-color: #292929;
+    color: white;
+}
+
+.services li:nth-child(even) {
+    background-color: #CC0000;
+    color: white;
+}
+
+.contact label {
+    font-size: 1.1rem;
+}
+.contact input {
+    width: 60%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+}
+
+.contact textarea {
+    width: 60%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    height: 10em;
+}
+
+.contact input:focus,
+.contact input:hover,
+.contact textarea:focus,
+.contact textarea:hover {
+    outline-color: #CC0000;
+}
+
+.contact button {
+    font-size: 1.1rem;
+    width: 62%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:500px){
+    #showcase h1 {
+        font-size: 2rem;
+        margin: 1rem 0 0 0;
+        line-height: 1.5em;
+    }
+}
